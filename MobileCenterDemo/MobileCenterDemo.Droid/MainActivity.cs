@@ -22,7 +22,7 @@ namespace MobileCenterDemo.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
-            MobileCenter.Configure("mykey");
+            MobileCenter.Configure("def7e90a-e56b-4bea-b13c-ffc888ad0117");
 
             LoadApplication(new App());
         }
