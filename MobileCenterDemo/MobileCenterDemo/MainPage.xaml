@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:MobileCenterDemo"
              x:Class="MobileCenterDemo.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
+  <StackLayout Orientation="Vertical">
+    <Label Text="Welcome to Xamarin Forms!"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
+    <Button Text="Crash"
+            x:Name="btnCrash"/>
+  </StackLayout>
 </ContentPage>
