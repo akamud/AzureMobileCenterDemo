@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.Azure.Mobile;
 
 namespace MobileCenterDemo.Droid
 {
@@ -20,6 +21,9 @@ namespace MobileCenterDemo.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            MobileCenter.Configure("mykey");
+
             LoadApplication(new App());
         }
     }
