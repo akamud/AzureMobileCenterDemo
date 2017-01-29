@@ -14,6 +14,7 @@ namespace MobileCenterDemo.UITest
             {
                 return ConfigureApp
                     .Android
+                    .InstalledApp("MobileCenterDemo.Droid")
                     .StartApp();
             }
 

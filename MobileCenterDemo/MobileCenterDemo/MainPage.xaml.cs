@@ -20,8 +20,14 @@ namespace MobileCenterDemo
 
             btnCrash.Clicked += (s, e) =>
             {
-                Crashes.GenerateTestCrash();
+                //Crashes.GenerateTestCrash();
+                TestCrash();
             };
+        }
+
+        private void TestCrash()
+        {
+            throw new NotImplementedException();
         }
     }
 }

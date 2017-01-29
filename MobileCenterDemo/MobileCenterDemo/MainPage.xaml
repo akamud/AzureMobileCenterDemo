@@ -4,12 +4,32 @@
              xmlns:local="clr-namespace:MobileCenterDemo"
              x:Class="MobileCenterDemo.MainPage">
 
-  <StackLayout Orientation="Vertical">
+  <StackLayout Orientation="Vertical" Spacing="15">
     <Label Text="Welcome to Xamarin Forms!"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
     <Button Text="Crash"
             x:Name="btnCrash"/>
+
+    <Label Text="Nome" />
+    <Entry />
+
+    <Label Text="Sobrenome" />
+    <Entry />
+
+    <Label Text="Email" />
+    <Entry />
+
+    <Label Text="Confirmar E-mail" />
+    <Entry />
+
+    <Label Text="Telefone" />
+    <Entry />
+
+    <Label Text="Senha" />
+    <Entry />
+
+    <Button Text="Enviar" AutomationId="btnEnviar"/>
   </StackLayout>
 </ContentPage>

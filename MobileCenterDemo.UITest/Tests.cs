@@ -36,6 +36,12 @@ namespace MobileCenterDemo.UITest
         {
             app.Query(e => e.Text("Welcome to Xamarin Forms!"));
         }
+
+        [Test]
+        public void BotaoDeEnviarEstaHabilitado()
+        {
+            app.Tap("btnEnviar");
+        }
     }
 }
 
